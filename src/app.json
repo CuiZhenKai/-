@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/Books/main",
+    "pages/Comments/main",
+    "pages/Me/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009999",
+    "navigationBarTitleText": "蜗壳分享",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "selectedColor":"#009999",
+    "list":[
+      {
+        "pagePath":"pages/Books/main",
+        "text":"图书",
+        "iconPath":"static/img/book.png",
+        "selectedIconPath":"static/img/book-active.png"
+      },
+      {
+        "pagePath":"pages/Comments/main",
+        "text":"评论",
+        "iconPath":"static/img/todo.png",
+        "selectedIconPath":"static/img/todo-active.png"
+      },
+      {
+        "pagePath":"pages/Me/main",
+        "text":"我",
+        "iconPath":"static/img/me.png",
+        "selectedIconPath":"static/img/me-active.png"
+      }
+    ]
+  }
+}
